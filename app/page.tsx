@@ -88,14 +88,14 @@ export default function Home() {
   };
 
   const subscribe = async () => {
-    if (!email.includes('@') || subscribing) return;
+    if (!email.includes('@') || subscribing || !result) return;
     setSubscribing(true);
     setSubError(null);
     try {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, keyword: kw, result }),
       });
       if (!res.ok) { const e = await res.json(); throw new Error(e.error); }
       setSent(true);
