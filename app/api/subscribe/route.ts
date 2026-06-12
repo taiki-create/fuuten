@@ -100,7 +100,7 @@ function buildEmailHtml(keyword: string, report: {
   <div style="background:#0F172A;border-radius:12px;padding:24px;text-align:center">
     <div style="font-size:15px;font-weight:500;color:white;margin-bottom:6px">さらに深く分析したい方へ</div>
     <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:16px">競合チャンネル10社の詳細スコア・台本設計テンプレート・<br>3ヶ月チャンネル成長ロードマップを含む完全版レポート</div>
-    <a href="STRIPE_PAYMENT_LINK_HERE" style="display:inline-block;background:#F59E0B;color:#78350F;font-size:13px;font-weight:500;padding:12px 28px;border-radius:8px;text-decoration:none">完全レポートを購入する（¥1,980）</a>
+    <a href="https://buy.stripe.com/bJecN55PnaZZefWfa487K00" style="display:inline-block;background:#F59E0B;color:#78350F;font-size:13px;font-weight:500;padding:12px 28px;border-radius:8px;text-decoration:none">完全レポートを購入する（¥980）</a>
     <div style="font-size:11px;color:rgba(255,255,255,0.3);margin-top:12px">買い切り・返金保証あり</div>
   </div>
   <div style="text-align:center;margin-top:20px;font-size:11px;color:#CBD5E1">FuuTen · YouTubeジャンル需給分析ツール</div>
